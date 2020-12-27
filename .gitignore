@@ -30,5 +30,11 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
+# env
+.env
+
 # vercel
 .vercel
+
+# templates (hygen)
+_templates/
