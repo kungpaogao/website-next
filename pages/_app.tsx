@@ -15,8 +15,8 @@ export default class Site extends App {
     const github = new GithubClient({
       proxy: "/api/proxy-github",
       authCallbackRoute: "/api/create-github-access-token",
-      clientId: process.env.GITHUB_CLIENT_ID as string,
-      baseRepoFullName: process.env.REPO_FULL_NAME as string, // e.g: tinacms/tinacms.org,
+      clientId: process.env.GITHUB_CLIENT_ID || "",
+      baseRepoFullName: process.env.REPO_FULL_NAME || "", // e.g: tinacms/tinacms.org,
       baseBranch: process.env.BASE_BRANCH, // e.g. 'master' or 'main' on newer repos
     });
 
