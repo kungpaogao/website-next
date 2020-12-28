@@ -1,4 +1,4 @@
-import App from "next/app";
+import App, { AppProps } from "next/app";
 import { TinaCMS, TinaProvider } from "tinacms";
 import {
   GithubClient,
@@ -9,7 +9,7 @@ import {
 export default class Site extends App {
   cms: TinaCMS;
 
-  constructor(props: any) {
+  constructor(props: AppProps) {
     super(props);
 
     const github = new GithubClient({
