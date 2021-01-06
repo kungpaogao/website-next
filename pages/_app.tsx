@@ -5,6 +5,7 @@ import {
   TinacmsGithubProvider,
   GithubMediaStore,
 } from "react-tinacms-github";
+import "tailwindcss/tailwind.css";
 
 export default class Site extends App {
   cms: TinaCMS;

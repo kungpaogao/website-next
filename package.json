@@ -8,13 +8,16 @@
     "type-check": "tsc"
   },
   "dependencies": {
+    "autoprefixer": "^10.2.0",
     "dotenv": "^8.2.0",
     "next": "latest",
     "next-tinacms-github": "^0.35.0",
+    "postcss": "^8.2.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-tinacms-github": "^0.35.0",
     "styled-components": "^5.2.1",
+    "tailwindcss": "^2.0.2",
     "tinacms": "^0.34.0"
   },
   "devDependencies": {
